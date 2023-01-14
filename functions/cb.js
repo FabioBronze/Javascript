@@ -5,12 +5,12 @@ function exibir(num) {
 
 function soma(a, b, cb) {
     let op = a + b
-    cb(op)
+    cb(op) //exibir a operação
 }
 
 function multiplicação(a, b, cb) {
     let op = a * b
-    cb(op)
+    cb(op) //exibir a operação
 }
 
 soma(2, 4, exibir)
