@@ -10,7 +10,7 @@ function soma(a, b, cb) {
 
 function multiplicação(a, b, cb) {
     let op = a * b
-    let(op)
+    cb(op)
 }
 
 soma(2, 4, exibir)
